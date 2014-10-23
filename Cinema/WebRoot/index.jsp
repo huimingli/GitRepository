@@ -4,16 +4,9 @@
 <html>
   <head>
     <title>后台首页</title>
-	<meta http-equiv="pragma" content="no-cache">
-	<meta http-equiv="cache-control" content="no-cache">
-	<meta http-equiv="expires" content="0">    
-	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
-	<meta http-equiv="description" content="This is my page">
-	<!--
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	-->
+	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/base.css">
   </head>
-  <frameset rows="25%,*">
+  <frameset rows="25%,*"  border="1px">
   	<frame src="${pageContext.request.contextPath}/manager/head.jsp" name="head">
   	<frameset cols="20%,*">
   		<frame src="${pageContext.request.contextPath}/manager/nav.jsp" name="nav">
